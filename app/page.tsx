@@ -11,7 +11,7 @@ export default function Home() {
       >
         <div className="flex md:flex-col md:flex-row items-center justify-between max-w-7xl mx-auto p-8">
           <div className="">
-            <h1 className="text-6xl font-bold uppercase max-w-md">
+            <h1 className="text-6xl font-bold uppercase max-w-2xl">
               The man who <br /> changed how we <br /> understand the <br />{" "}
               universe
             </h1>
