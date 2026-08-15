@@ -9,9 +9,9 @@ export default function Home() {
         id="#"
         className="mt-12 py-24 w-full bg-linear-to-b from-black to-neutral-800"
       >
-        <div className="flex md:flex-col md:flex-row items-center justify-between max-w-7xl mx-auto p-8">
+        <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto p-8">
           <div className="">
-            <h1 className="text-6xl font-bold uppercase max-w-2xl">
+            <h1 className="text-4xl md:text-6xl font-bold uppercase max-w-2xl">
               The man who <br /> changed how we <br /> understand the <br />{" "}
               universe
             </h1>
@@ -20,7 +20,7 @@ export default function Home() {
               Explore his journey <ArrowDown />
             </button>
           </div>
-          <div className="flex-1 items-center justify-center flex relative">
+          <div className="mt-8 md:mt-0 flex-1 items-center justify-center flex relative">
             <Image
               src={"/isaac-newton.png"}
               alt="Isaac Newton"
@@ -268,7 +268,7 @@ export default function Home() {
                 The man who changed how we understand the universe.
               </p>
             </div>
-            <div>
+            <div className="mt-9 md:mt-0">
               <p className="text-xs font-bold text-white/60 tracking-[3px]">Built by</p>
               <p className="mt-2 font-bold">Murtuza Shaikh</p>
               <p className="mt-2 font-bold text-white/60">
