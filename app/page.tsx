@@ -172,7 +172,7 @@ export default function Home() {
             <p className="text-white/90 text-center mt-6">1665–1667</p>
             <Image
               className=""
-              src={"/newton-writing.jfif"}
+              src={"/newton-writing.png"}
               alt="Issac Newton's Handwriting"
               width={500}
               height={500}
