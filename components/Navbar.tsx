@@ -16,9 +16,9 @@ export default function Navbar() {
                 <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#">Home</a></li>
                 <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#journey">Journey</a></li>
                 <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#discoveries">Discoveries</a></li>
-                <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#timeline">Timeline</a></li>
-                <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#sources">Sources</a></li>
-                <li><Link className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href={"/more"}>More</Link></li>
+                {/* <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#timeline">Timeline</a></li> */}
+                {/* <li><a className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href="#sources">Sources</a></li> */}
+                {/* <li><Link className="relative hover:after:scale-100 after:origin-left after:duration-300 after:scale-0 after:content-[''] after:bg-white after:h-px after:w-full after:absolute after:-bottom-2 after:left-0" href={"/more"}>More</Link></li> */}
             </ul>
             <MenuIcon className="md:hidden" onClick={() => setOpen(!open)}/>
 

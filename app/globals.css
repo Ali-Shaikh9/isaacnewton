@@ -30,6 +30,10 @@ body {
   animation: bounce-m 10s linear infinite alternate;
 }
 
+.fade-in-animation {
+  animation: fadeIn 700ms ease-in-out;
+}
+
 @keyframes falling {
   from {
     transform:translateY(0px) translateX(0px);
@@ -45,5 +49,14 @@ body {
   }
   to {
     transform:translateY(50px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

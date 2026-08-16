@@ -16,7 +16,7 @@ export default function Home() {
               universe
             </h1>
             {/* <p className="mt-4 font-semibold text-white/60 text-xl">1643 — 1727</p> */}
-            <button className="mt-6 p-4 border transition-colors rounded-sm hover:bg-white hover:text-black flex items-center gap-2 text-lg">
+            <button className=" mt-6 p-4 border transition-colors rounded-sm hover:bg-white hover:text-black flex items-center gap-2 text-lg">
               Explore his journey <ArrowDown />
             </button>
           </div>
@@ -28,7 +28,7 @@ export default function Home() {
               height={350}
             />
             <Image
-              className="md:hidden falling-animation absolute -top-20 right-20"
+              className="falling-animation absolute -top-20 right-20"
               src={"/apple.png"}
               alt="Apple"
               width={100}
